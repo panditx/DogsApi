@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: rale;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  background-color: #C4C3D0;
+}
+
+code {
+    font-family: rale;
+    font-weight: bold;
+}

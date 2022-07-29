@@ -1,0 +1,104 @@
+
+.opciones{
+    position: relative;
+    right:19em;
+}
+.cards{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: left;
+    margin-left: 2.5em;
+    margin-right: auto;
+}
+/* .cards div{
+    backface-visibility: hidden;
+    transition: 1s;
+} 
+.cards .front{
+    transform: perspective(500px) rotateY(0deg) rotateX(0deg);
+}
+
+.cards .back{
+    transform: perspective(500px) rotateY(180deg) rotateX(0deg);
+}
+.cards:hover .front{
+    transform: perspective(500px) rotateY(180deg) rotateX(0deg);
+}
+.cards:hover .back{
+    transform: perspective(500px) rotateY(360deg) rotateX(0deg); 
+} */
+
+select{
+    font-family: rale;
+    font-weight: bold;
+    width: 11em;
+    height: 2em;
+    border-radius: 8px;
+    cursor: pointer;
+    float: right;
+}
+select option{
+    font-family: rale;
+    font-weight: bold;
+}
+.dir{
+    text-decoration: none;
+    color: #000;
+  }
+.botonF{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 10em;
+    height: 2em;
+    padding-top: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    left: 77em;
+    border-radius: 8px;
+    top: 3em
+}
+
+.contenedor1{
+    position: relative;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contenedor1 .loader{
+    width: 100px;
+    height: 100px;
+    border: solid 5px #064555;
+    border-top: 5px #7cd6ec;
+    border-radius: 50%;
+    animation: loader .8s linear infinite;
+}
+@keyframes loader{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.contenedor1 .message{
+    position: absolute;
+    color:#000000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: message 1s alternate infinite ease-in-out;
+}
+@keyframes message{
+    0%{
+        opacity: .2;
+    }
+    100%{
+        opacity: 1;
+    }
+}

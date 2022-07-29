@@ -1,0 +1,83 @@
+.container{
+    margin-right: 0rem;
+    margin-left: auto;
+    border-top: 5em;
+    background-image: url(../../assets/ciencia.png);
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: right 13em;
+    background-position: fixed;
+}
+label{
+    width: 30%;
+    font: 700 20px;
+    font-weight: 700;
+    display: inline-block;
+    text-align: right; 
+    margin-right: 1em;
+    width: 70px;
+    padding: 0%;
+}
+
+.inputs{
+    width: 15%;
+    height: 20px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 15px;
+    text-align: left;
+}
+
+.temp{
+    display: inline-block;
+    margin-left: auto;
+    border-top: auto;
+    background-color: #f6f6f6;
+    list-style: none;
+    
+}
+.lis{
+   margin: 1em;
+   padding: 0;
+   display: inline-block;
+}
+.listado{
+    width: 30%;
+    font: 700 20px;
+    font-weight: 700;
+    display: inline;
+    text-align: right;
+    width: 5em;
+}
+
+.formu{
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.temps{
+    font-family: rale;
+    font-weight: bold;
+    width: 11em;
+    height: 2em;
+    border-radius: 8px;
+    cursor: pointer;
+    float: none;
+}
+.botonF{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 10em;
+    height: 2em;
+    padding-top: 5px;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    top: 3em
+}

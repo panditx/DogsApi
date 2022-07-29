@@ -1,0 +1,17 @@
+.contenedor{
+    display: inline;
+    overflow: hidden;
+    position: relative;
+    right:19em;
+}
+.busqueda{
+    font-family: rale;
+    font-weight: bold;
+    width: 5em;
+    height: 2em;
+
+}
+.barra{
+  width: 10em;
+  height: 1.6em;
+}

@@ -1,0 +1,27 @@
+
+.nav{
+    align-items: center;
+    justify-content: flex-end;
+    height: 40px;
+    width: 300px;
+    margin-top: 5px;
+    margin-left: 20%;
+    margin-right: auto; 
+}
+.ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+}
+.a{
+    font-weight: bolder;
+
+}
+.li{
+    color: #000000;
+    margin-bottom: 3px;
+    width: 40px;
+    text-decoration: none;
+}
+
